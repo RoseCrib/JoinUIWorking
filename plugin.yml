@@ -1,6 +1,6 @@
 ---
-name: JoinUI
+name: JoinUIWorking
 version: 1.0.0
 api: 3.0.0
-main: JoinUI\Main
+main: JoinUIWorking\Main
 ...
