@@ -1,9 +1,8 @@
 <?php
 
-
 declare(strict_types=1);
 
-namespace JoinUI;
+namespace JoinUIWorking;
 
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\Server;
@@ -23,17 +22,17 @@ class Main extends PluginBase implements Listener
         if (!$this->FormAPI or $this->FormAPI->isDisabled()) {
             $this->getLogger()->warning("§cPlugin FormAPI not found, disabling JoinUI");
             $this->getLogger()->warning("§ePlease install FormAPI. » poggit.pmmp.io/p/FormAPI");
-            $this->getServer()->disablePlugin("JoinUI");
+            $this->getServer()->disablePlugin("JoinUIWorking");
         }
 
-        $this->getLogger()->info("§aJoinUI enabled!");
+        $this->getLogger()->info("§aJoinUIWorking enabled!");
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->saveResource("config.yml");
     }
 
     public function onDisable()
     {
-        $this->getLogger()->info("§cJoinUI disabled!");
+        $this->getLogger()->info("§cJoinUIWorking disabled!");
     }
 
     public function onJoin(PlayerJoinEvent $event)
