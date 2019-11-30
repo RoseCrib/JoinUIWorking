@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/skillDev5235/JoinUIWorking
+branches:
+- master
+projects:
+  JoinUIWorking:
+    path: ""
+...
