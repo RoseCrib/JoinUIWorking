@@ -1,0 +1,13 @@
+---
+# Config File for JoinUI
+# Thanks for using my Plugin :D
+
+joinui-title: "§8» §cInformation" # UI Title
+joinui-message: "§eWelcome to this nice Server, {player}!\n§bHave fun!\n\n§fYou can edit all texts in config.yml File" # <--- Example | Use \n to go in a new line | Use {player} to get Player name.
+joinui-button: "§aUnderstood §7& §cClose" # Button
+
+enabled-joinui: "true" # This is a cool feature! If you set enabled to false, you will no longer see a UI when joining. Main is on true
+no-joinui-message: "§l§eServer §r§7» §cJoinUI is disabled!"
+
+# My Discord: discord.gg/jjugWJJ
+...
