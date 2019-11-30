@@ -1,4 +1,6 @@
 # JoinUIWorking
 JoinUI Plugin without crashes and big config
 
-Minecraft Plugin, PHP
+PocketMine-MP Plugin
+
+discord.gg/jjugWJJ
