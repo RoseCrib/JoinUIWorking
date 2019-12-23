@@ -17,15 +17,15 @@ class Main extends PluginBase implements Listener
 {
     public function onEnable()
     {
-        $this->FormAPI = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
-        if (!$this->FormAPI or $this->FormAPI->isDisabled()) {
-            $this->getLogger()->warning("§cPlugin FormAPI not found, disabling JoinUI");
-            $this->getLogger()->warning("§ePlease install FormAPI. » poggit.pmmp.io/p/FormAPI");
-        }
-        
         $this->getLogger()->info("§aJoinUIWorking enabled!");
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->saveResource("config.yml");
+        
+        $this->FormAPI = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
+        if (!$this->FormAPI or $this->FormAPI->isDisabled()) {
+            $this->getLogger()->warning("§cPlugin FormAPI not found, disabling JoinUI...");
+            $this->getLogger()->warning("§ePlease install FormAPI! » poggit.pmmp.io/p/FormAPI");
+        }
     }
     
     public function onDisable()
