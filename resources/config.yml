@@ -4,13 +4,14 @@
 
 # Use \n to go in a new line
 # Use {player} to get player name
+# Use § as a color symbole
 
 joinui-title: "§8» §cInformation" # UI Title
 joinui-message: "§eWelcome to this nice Server, {player}!\n§bHave fun!\n\n§fYou can edit all texts in config.yml File" # UI Text
 joinui-button: "§cClose" # UI Button
 
-enabled-joinui: "true" # If you set enabled to false, you will no longer see a UI when joining. Main is on true
-no-joinui-message: "§l§eServer §r§7» §cJoinUI is disabled!" # Message, if you set "enabled-joinui" to false
+enabled-joinui: "true" # If you set enabled to false, you will no longer see a UI when joining. Default is true
+no-joinui-message: "§l§eServer §r§7» §cJoinUI is disabled!" # The Message if you set "enabled-joinui" to false
 
 # My Discord: discord.gg/jjugWJJ
 ...
