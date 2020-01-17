@@ -10,6 +10,8 @@ use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 use pocketmine\event\Listener;
+//use pocketmine\event\player\PlayerPreLoginEvent; - TODO?
+
 use jojoe77777\FormAPI;
 use jojoe77777\FormAPI\SimpleForm;
 
@@ -24,7 +26,7 @@ class Main extends PluginBase implements Listener
         $this->FormAPI = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
         if (!$this->FormAPI or $this->FormAPI->isDisabled()) {
             $this->getLogger()->warning("§cPlugin FormAPI not found, disabling JoinUI...");
-            $this->getLogger()->warning("§ePlease install FormAPI! » poggit.pmmp.io/p/FormAPI");
+            $this->getLogger()->warning("§ePlease install FormAPI - Download HERE: poggit.pmmp.io/p/FormAPI");
             $this->getServer()->getPluginManager()->disablePlugin($this);
         }
     }
