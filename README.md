@@ -3,4 +3,4 @@ JoinUI edited by xAndrei52, without any crash and a UI welcome message! EDIT It 
 
 PocketMine-MP Plugin
 
-Talking with devs/testers/players discord server: SOON!
+Talking with devs/testers/players discord server: SOON!!!
