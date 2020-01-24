@@ -1,6 +1,6 @@
 # JoinUIWorking
-JoinUI Plugin without crashes and big config
+JoinUI edited by xAndrei52, without any crash and a UI welcome message! EDIT It in config.yml
 
 PocketMine-MP Plugin
 
-discord.gg/jjugWJJ
+Talking with devs/testers/players discord server: SOON!
